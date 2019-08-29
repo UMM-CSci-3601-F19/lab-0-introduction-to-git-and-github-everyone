@@ -23,6 +23,7 @@ public class Hellos {
     builder.append(nicSaysHello());
     builder.append(zangSaysHello());
     builder.append(tylerSaysHello());
+    builder.append(kaiSaysHello());
 
 
     return builder.toString();
