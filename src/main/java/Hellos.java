@@ -17,17 +17,21 @@ public class Hellos {
     builder.append(WELCOME_LINE + "\n");
     builder.append(davidSaysHello());
     builder.append(kkSaysHello());
-    builder.append(michaelSaysHello());
-    builder.append(matthewSaysHello());
     builder.append(machiSaysHello());
+    builder.append(matthewSaysHello());
+    builder.append(michaelSaysHello());
     builder.append(nicSaysHello());
+<<<<<<< HEAD
 <<<<<<< HEAD
     builder.append(kedrickSaysHello());
     builder.append(christianSaysHello());
 =======
     builder.append(zangSaysHello());
+=======
+>>>>>>> b969d8f0ccbd800d841caa5104309fd3c72e5e10
     builder.append(tylerSaysHello());
-    builder.append(kaiSaysHello());
+    builder.append(zangSaysHello());
+
 
 
 >>>>>>> fdc9feea48efc867cdb1c7ae55ab084e0fddf571
