@@ -16,13 +16,13 @@ public class Hellos {
 
     builder.append(WELCOME_LINE + "\n");
     builder.append(davidSaysHello());
-    builder.append(kaiSaysHello());
     builder.append(kkSaysHello());
     builder.append(michaelSaysHello());
     builder.append(matthewSaysHello());
     builder.append(machiSaysHello());
     builder.append(nicSaysHello());
     builder.append(tylerSaysHello());
+    builder.append(kaiSaysHello());
 
 
     return builder.toString();
