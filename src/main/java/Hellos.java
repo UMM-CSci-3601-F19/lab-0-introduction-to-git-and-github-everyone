@@ -17,7 +17,8 @@ public class Hellos {
     builder.append(WELCOME_LINE + "\n");
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
-
+    builder.append(kedrickSaysHello());
+    builder.append(christianSaysHello());
     return builder.toString();
   }
 
@@ -27,6 +28,14 @@ public class Hellos {
 
   private static String kkSaysHello() {
     return "KK says 'Hello!'\n";
+  }
+
+  private static String kedrickSaysHello() {
+    return "Kedrick says 'Hello!'\n";
+  }
+
+  private static String christianSaysHello() {
+    return "Christian says 'Hello!'\n";
   }
 
 }
