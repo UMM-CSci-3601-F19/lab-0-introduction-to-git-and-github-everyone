@@ -23,20 +23,14 @@ public class Hellos {
     builder.append(matthewSaysHello());
     builder.append(michaelSaysHello());
     builder.append(nicSaysHello());
-<<<<<<< HEAD
-<<<<<<< HEAD
     builder.append(kedrickSaysHello());
     builder.append(christianSaysHello());
-=======
     builder.append(zangSaysHello());
-=======
->>>>>>> b969d8f0ccbd800d841caa5104309fd3c72e5e10
     builder.append(tylerSaysHello());
     builder.append(zangSaysHello());
 
 
 
->>>>>>> fdc9feea48efc867cdb1c7ae55ab084e0fddf571
     return builder.toString();
   }
 
@@ -48,20 +42,19 @@ public class Hellos {
     return "KK says 'Hello!'\n";
   }
 
-<<<<<<< HEAD
   private static String kedrickSaysHello() {
     return "Kedrick says 'Hello!'\n";
   }
 
   private static String christianSaysHello() {
     return "Christian says 'Hello!'\n";
-=======
-  private static String tylerSaysHello() {return "Tyler says 'Good Morning!'\n";}
+
+    private static String tylerSaysHello() {return "Tyler says 'Good Morning!'\n";}
 
   private static String davidSaysHello() {return "David says 'Hellö!'\n";}
 
   private static String machiSaysHello() {
-    return "Machi says 'Howdy!'\n";
+    return "Machi says 'Howdy!\n";
   }
 
   private static String matthewSaysHello() {
@@ -74,7 +67,6 @@ public class Hellos {
 
   private static String zangSaysHello() {
     return "Zang says 'Hello!'\n";
->>>>>>> fdc9feea48efc867cdb1c7ae55ab084e0fddf571
   }
 
   private static String emmaSaysHello() {
