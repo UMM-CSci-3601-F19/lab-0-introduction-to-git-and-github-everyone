@@ -16,7 +16,10 @@ public class Hellos {
 
     builder.append(WELCOME_LINE + "\n");
     builder.append(kkSaysHello());
+    builder.append(machiSaysHello());
     builder.append(nicSaysHello());
+    builder.append(kaiSaysHello());
+
 
     return builder.toString();
   }
@@ -27,6 +30,14 @@ public class Hellos {
 
   private static String kkSaysHello() {
     return "KK says 'Hello!'\n";
+  }
+
+  private static String machiSaysHello() {
+    return "Machi says 'Howdy!'\n";
+  }
+
+  private static String kaiSaysHello() {
+    return "Zang says 'Hello!'\n";
   }
 
 }
