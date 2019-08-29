@@ -18,7 +18,7 @@ public class Hellos {
     builder.append(kkSaysHello());
     builder.append(machiSaysHello());
     builder.append(nicSaysHello());
-    builder.append(kaiSaysHello());
+    builder.append(zangSaysHello());
 
 
     return builder.toString();
@@ -36,7 +36,7 @@ public class Hellos {
     return "Machi says 'Howdy!'\n";
   }
 
-  private static String kaiSaysHello() {
+  private static String zangSaysHello() {
     return "Zang says 'Hello!'\n";
   }
 
