@@ -8,4 +8,4 @@
 
 * I preferred to be called "Kai".
 * My preferred pronouns are he/him/his.
-* My Github username is `Shuaikkai`.
+* My Github username is `Shuaikkkai`.
