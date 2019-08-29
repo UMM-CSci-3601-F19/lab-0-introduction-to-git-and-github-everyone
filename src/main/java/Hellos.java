@@ -15,17 +15,22 @@ public class Hellos {
     StringBuilder builder = new StringBuilder();
 
     builder.append(WELCOME_LINE + "\n");
-    builder.append(davidSaysHello());
-    builder.append(kaiSaysHello());
+    builder.append(beaneSaysHello());
     builder.append(kkSaysHello());
-    builder.append(michaelSaysHello());
-    builder.append(matthewSaysHello());
-    builder.append(machiSaysHello());
     builder.append(nicSaysHello());
-    builder.append(tylerSaysHello());
+    builder.append(wallerSaysHello());
 
 
     return builder.toString();
+  }
+
+
+  private static String beaneSaysHello() {
+    return "Beane says 'Hello!'\n";
+  }
+
+  private static String wallerSaysHello() {
+    return "Waller says 'Hello!'\n";
   }
 
   private static String nicSaysHello() {
@@ -34,26 +39,6 @@ public class Hellos {
 
   private static String kkSaysHello() {
     return "KK says 'Hello!'\n";
-  }
-
-  private static String tylerSaysHello() {return "Tyler says 'Good Morning!'\n";}
-
-  private static String davidSaysHello() {return "David says 'Hellö!'\n";}
-
-  private static String machiSaysHello() {
-    return "Machi says 'Howdy!'\n";
-  }
-
-  private static String matthewSaysHello() {
-    return "Matthew says 'hi!'\n";
-  }
-
-  private static String michaelSaysHello() {
-    return "Michael says 'Hey!'\n";
-  }
-
-  private static String kaiSaysHello() {
-    return "Zang says 'Hello!'\n";
   }
 
 }
