@@ -15,20 +15,20 @@ public class Hellos {
     StringBuilder builder = new StringBuilder();
 
     builder.append(WELCOME_LINE + "\n");
+    builder.append(beaneSaysHello());
+    builder.append(christianSaysHello());
     builder.append(davidSaysHello());
     builder.append(emmaSaysHello());
     builder.append(hoomzSaysHello());
-    builder.append(beaneSaysHello());
     builder.append(kkSaysHello());
+    builder.append(kedrickSaysHello());
     builder.append(machiSaysHello());
     builder.append(matthewSaysHello());
     builder.append(michaelSaysHello());
     builder.append(nicSaysHello());
-    builder.append(kedrickSaysHello());
-    builder.append(christianSaysHello());
-    builder.append(zangSaysHello());
     builder.append(tylerSaysHello());
     builder.append(wallerSaysHello());
+    builder.append(zangSaysHello());
     builder.append(zangSaysHello());
 
     return builder.toString();
@@ -64,7 +64,7 @@ public class Hellos {
   private static String davidSaysHello() {return "David says 'Hellö!'\n";}
 
   private static String machiSaysHello() {
-    return "Machi says 'Howdy!\n";
+    return "Machi says 'Howdy!'\n";
   }
 
   private static String matthewSaysHello() {
@@ -80,10 +80,10 @@ public class Hellos {
   }
 
   private static String emmaSaysHello() {
-    return "Emma says 'Hi. :)'\n";
+    return "Emma says 'Hi!'\n";
   }
 
     private static String hoomzSaysHello(){
-	return "Hoomz says 'sup'\n";
+	return "Hoomz says 'sup!'\n";
     }
 }
