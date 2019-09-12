@@ -16,3 +16,5 @@ according to plan. Pull requests and merging with the master branch give
 a strong sense of how different features are coming along and support
 continuous integration meaningfully.
 
+Even more helpful is to reference issues in your commits.
+
